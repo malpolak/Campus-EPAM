@@ -20,7 +20,7 @@ try:
     with open(file_path, "r", encoding="utf-8") as file:
         people = json.load(file)
 
-    print("Data loaded successfully.")
+    print("Data loaded successfully." + "\n")
 
 # 2 Display the loaded data (to check)
     #print(people)
