@@ -35,3 +35,9 @@ print(posortowane)
 
 
 #map funcion
+
+liczby = [1, 2, 3]
+funkcja = lambda x: x + 2
+
+powiekszone_o_2 = list(map(funkcja, liczby))
+print(powiekszone_o_2)
