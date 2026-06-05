@@ -1,0 +1,41 @@
+# Text Processor CLI Tool
+
+A Python command-line tool that reads a text file, processes its content, and outputs word frequency results to another file.
+
+The project demonstrates:
+- CLI usage with argparse
+- File I/O handling
+- Text preprocessing (cleaning & normalization)
+- Logging
+- Error handling
+- Modular architecture (src layout)
+- Packaging with setuptools
+
+---
+
+## 🚀 Features
+
+- Reads input text file
+- Cleans text (lowercase, removes punctuation)
+- Counts word frequency
+- Writes results to output file
+- Logs execution steps
+- Handles common errors gracefully
+- Includes execution time decorator
+
+---
+
+## 📦 Installation
+
+### 1. Create virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install package
+```bash
+pip install -e .
+
+### 3. Usage
+```bash
+text-processor input.txt -o output.txt
