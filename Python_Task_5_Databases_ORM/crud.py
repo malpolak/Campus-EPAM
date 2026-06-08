@@ -1,4 +1,4 @@
-from sqlalchemy import select, delete, update
+from sqlalchemy import select, delete
 from database import SessionLocal
 from models import Film
 
@@ -13,9 +13,7 @@ def add_films():
             Film(title="Ida", director="Pawlikowski", release_year=2013),
             Film(title="City of God", director="Meirelles", release_year=2002),
             Film(title="City of God", director="Meirelles", release_year=2002),
-            Film(
-                title="The Shawshank Redemption", director="Darabont", release_year=1994
-            ),
+            Film(title="The Shawshank Redemption", director="Darabont", release_year=1994),
         ]
 
         for film in films:
