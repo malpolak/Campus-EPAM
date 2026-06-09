@@ -1,13 +1,21 @@
 # HTTP Cat API Tests
 
-Automated API tests for https://http.cat
+Automated tests for https://http.cat validating HTTP responses and HTML content.
+
+The project verifies HTTP status codes, response headers, and basic HTML structure returned by the service.
 
 ## Tech Stack
 
-- Python
+- Python 3.11
 - Pytest
 - Requests
 - BeautifulSoup4
+
+## Project Structure
+
+- `clients/` – API client layer
+- `utils/` – helper functions (HTML parsing)
+- `tests/` – test cases
 
 ## Installation
 
